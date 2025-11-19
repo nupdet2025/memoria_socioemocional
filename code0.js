@@ -11,7 +11,7 @@ gdjs.IntroCode.GDcursorObjects2= [];
 
 
 gdjs.IntroCode.mapOfGDgdjs_9546IntroCode_9546GDavan_959595231arObjects1Objects = Hashtable.newFrom({"avançar": gdjs.IntroCode.GDavan_95231arObjects1});
-gdjs.IntroCode.asyncCallback12896308 = function (runtimeScene, asyncObjectsList) {
+gdjs.IntroCode.asyncCallback13197508 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.IntroCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Intro2", false);
 }gdjs.IntroCode.localVariables.length = 0;
@@ -25,7 +25,7 @@ gdjs.IntroCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.IntroCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.IntroCode.asyncCallback12896308(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.IntroCode.asyncCallback13197508(runtimeScene, asyncObjectsList)));
 }
 }
 

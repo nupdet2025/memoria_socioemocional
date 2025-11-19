@@ -25,7 +25,7 @@ gdjs.Intro2Code.GDCard_95956aObjects2= [];
 
 
 gdjs.Intro2Code.mapOfGDgdjs_9546Intro2Code_9546GDjogarObjects1Objects = Hashtable.newFrom({"jogar": gdjs.Intro2Code.GDjogarObjects1});
-gdjs.Intro2Code.asyncCallback12925044 = function (runtimeScene, asyncObjectsList) {
+gdjs.Intro2Code.asyncCallback13230196 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Intro2Code.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "NewScene", false);
 }gdjs.Intro2Code.localVariables.length = 0;
@@ -39,7 +39,7 @@ gdjs.Intro2Code.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Intro2Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Intro2Code.asyncCallback12925044(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Intro2Code.asyncCallback13230196(runtimeScene, asyncObjectsList)));
 }
 }
 
